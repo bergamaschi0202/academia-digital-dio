@@ -12,7 +12,7 @@
 	<artifactId>academia-digital</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>academia-digital</name>
-	<description>Tutorial API RESTful modelando sistema de academia de ginástica</description>
+	<description>Desafio de projeto do DIO curso do Spring Framework</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -31,8 +31,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
