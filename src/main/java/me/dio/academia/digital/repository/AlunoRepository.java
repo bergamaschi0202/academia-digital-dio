@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Repository
-public interface AlunoRepository {
+public interface AlunoRepository extends JpaRepository<Aluno, Long> {
 
 
 }
